@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Brygada+1918:wght@700&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+.tour_main{
+    width: 70%;
+    margin: 0 auto;
+    padding: .8rem 0;
+}
+.tour_main h1{
+    text-align: center;
+    font-family: 'Brygada 1918', serif;
+    text-transform: uppercase;
+}
+.vanue_Deatils{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: .6rem 0 1rem 0;
+    border-bottom: 1px solid black;
+}
+.date_and_venue {
+    width: 100%;
+    display: flex;
+}
+.date_and_venue span{
+    text-transform: uppercase;
+    font-size: .9rem;
+}
+.date_and_venue span:nth-child(1){
+    width: 15%;
+    font-weight: bold;
+}
+.date_and_venue span:nth-child(2),span:nth-child(3){
+    width: 35%;
+}
+
+.vanue_Deatils button{
+    width: 22%;
+    border: none;
+    padding: .2rem .5rem;
+    text-transform: uppercase;
+    border-radius: .2rem;
+    background-color: rgb(41, 219, 219);
+    color: #fff;
+
+}
+
+@media screen and (max-width:710px){
+    .date_and_venue span:nth-child(2),span:nth-child(3){
+        width: 32%;
+    }
+}
+@media screen and (max-width:600px){
+    .date_and_venue span:nth-child(1){
+        width: 30%;
+    }
+    .date_and_venue span:nth-child(2),span:nth-child(3){
+        width: 40%;
+    }
+}
+@media screen and (max-width:460px){
+    .date_and_venue span:nth-child(1){
+        width: 30%;
+    }
+    .date_and_venue span:nth-child(2),span:nth-child(3){
+        width: 80%;
+    }
+}

@@ -1,0 +1,96 @@
+.mainform-div {
+  width: 40%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10.5rem;
+  margin-bottom: 7.9rem;
+}
+.mainform-div form {
+    width: 100%;
+    padding: 1.5rem 3rem;
+    background: white;
+    border-radius: 0.5rem;
+    border: .5px solid orangered;
+}
+.mainform-div form label {
+  text-transform: capitalize;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+.mainform-div form input {
+  width: 100%;
+  border-radius: 1rem;
+  border: 0.5px solid rgb(206, 205, 205);
+  outline: none;
+  padding: 0.2rem 1rem;
+  margin-bottom: 0.5rem;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.submit-button {
+  width: 100%;
+  margin-top: 1.2rem;
+  text-align: center;
+}
+.submit-button button {
+  padding: 0.2rem 2.5rem;
+  text-transform: uppercase;
+  border: 0.5px solid orangered;
+  outline: none;
+  border-radius: 1rem;
+  background: transparent;
+}
+.submit-button button:hover {
+  background: orangered;
+  transition: 0.5s ease;
+  color: white;
+}
+.show-message {
+  width: 100%;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.show-message p {
+  width: 40%;
+  margin: 0 auto;
+  background: rgb(129, 91, 19);
+  padding: 0.2rem 0;
+  color: white;
+  border-radius: 1rem;
+  text-transform: capitalize;
+  animation: add-message 0.5s ease-in-out forwards;
+
+}
+@keyframes  add-message {
+    from{
+        transform: translateY(1.8rem);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width:1050px) {
+    .mainform-div {
+        width: 70%;
+        padding-top: 12rem;
+    }
+    form {
+        padding: 1.5re;
+    }
+    .submit-button button {
+        width: 100%;
+        padding: .2rem ;
+        text-transform: capitalize;
+        font-size: .6rem;
+    }
+}

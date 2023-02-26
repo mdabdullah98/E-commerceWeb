@@ -1,0 +1,66 @@
+.main-div-pages {
+  width: 100%;
+  min-width: 40%;
+  height: 90vh;
+  margin: 0 auto;
+  position: absolute;
+  top: 10%;
+  overflow-y: hidden;
+}
+.innderDiv {
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.innderDiv .login-form {
+  width: 40%;
+  min-width: 40%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid rgb(207, 204, 204);
+  background: rgb(85, 85, 214);
+  padding: 1rem 0;
+}
+.login-form label {
+  color: #fff;
+  margin: 0.5rem 0;
+  text-transform: capitalize;
+}
+.login-form input {
+  width: 100%;
+  outline: none;
+  border-radius: 0.5rem;
+  padding: 0.3rem 1rem;
+  border: none;
+}
+
+/* i created all pages  login, sign up, profile ate same place */
+.profile-change-password,
+.profile-confirm-password {
+  width: 30%;
+  border: 2px solid rgb(76, 76, 208);
+  background: rgb(242, 242, 251);
+  outline: none;
+  padding: 0.2rem 1.2rem;
+}
+.change-password {
+  background: rgb(59, 59, 192);
+  color: white;
+  border: none;
+  padding: 0.2rem 0.8rem;
+}
+/* this css will work when user press sign up key and if there some error thowing by firebase so error will show like this  */
+
+/* i created all pages  login, sign up, profile at same place */
+
+@media screen and (max-width: 1000px) {
+  .main-div-pages {
+    top: 15%;
+  }
+}

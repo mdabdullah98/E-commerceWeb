@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+}
+.album{
+    width: 100%;
+    height: 100%;
+    background: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom:3rem ;
+    padding-top: 3rem;
+}
+.latest_album{
+    padding: .5rem 1rem;
+    font-size: 1.5rem;
+    background: gray;
+    border: 1px solid cyan;
+    color: white;
+}
+.play_button{
+    padding: 1.5rem;
+    color: cyan;
+    font-size: 1.5rem;
+    border: 1px solid cyan;
+    border-radius: 50%;
+    background: gray;
+}
+@media screen and (max-width:470px) {
+    .album{
+        padding-top: 12rem;
+    }
+}

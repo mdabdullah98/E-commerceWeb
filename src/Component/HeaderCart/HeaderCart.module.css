@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+}
+.cart{
+    border: 1px solid cyan;
+    border-radius: .5rem;
+    text-align: center;
+    padding: .2rem .8rem;
+}
+.cart a{
+    color: white;
+    text-decoration: none;
+}
+.cart a:hover{
+    color: white;
+}
+.cartNumber{
+    color: red;
+    margin-left: .5rem;
+    font-size: 1.5rem;
+    transform: translateY(-.9rem);
+}

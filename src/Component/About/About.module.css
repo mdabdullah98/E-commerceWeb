@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Brygada+1918:wght@700&display=swap");
+
+.main-about-div .main-content-compo {
+  padding-top: 3.5rem;
+}
+.about-sec {
+  width: 90%;
+  max-width: 90%;
+  margin: 0 auto;
+  padding-top: 4.5rem;
+}
+.about-sec h1 {
+  text-align: center;
+  font-family: "Brygada 1918", serif;
+  margin-bottom: 5rem;
+}
+.siteImage-siteInfo {
+  width: 100%;
+}
+
+.siteImage-siteInfo img {
+  width: 14rem;
+  height: 14rem;
+  border-radius: 50%;
+  margin: 0.5rem 2rem;
+  float: left;
+}
+.siteImage-siteInfo p {
+  align-items: center;
+}
+@media screen and (max-width: 460px) {
+  .main-about-div .main-content-compo {
+    padding-top: 10rem;
+  }
+}

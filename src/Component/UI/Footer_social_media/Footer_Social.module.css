@@ -1,0 +1,38 @@
+.social_media{
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.social_media span{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    width: 2rem;
+    height: 1.8rem;
+    background: rgb(255, 255, 255);
+    border-radius: .3rem;
+    cursor: pointer;
+}
+.social_media span:hover{
+    transform: translateY(-.3rem);
+    transition: .3s;
+}
+.social_media span:nth-child(1){
+    color: red;
+}
+.social_media .spotify,.facebook{
+    color: cyan;
+}
+@media screen and (max-width:560px){
+    .social_media{
+        width: 30%;
+    }
+}
+@media screen and (max-width:420px){
+    .social_media{
+        width: 40%;
+    }
+}

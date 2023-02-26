@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Brygada+1918:wght@700&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+.main{
+    background: gray;
+    padding-bottom:3.5rem;
+}
+.main h1{
+    font-size: 7.5rem;
+    color: white;
+    text-align: center;
+    font-family: 'Brygada 1918', serif;
+
+}
+@media screen and (max-width: 770px) {
+    .main h1{
+        font-size: 6rem;
+    }
+}
+@media screen and (max-width: 660px) {
+    .main h1{
+        font-size: 4rem;
+    }
+}
