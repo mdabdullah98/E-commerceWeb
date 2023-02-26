@@ -8,6 +8,7 @@ const About = (props) => {
   return (
     <>
       <Header />
+
       <div className={classes["main-about-div"]}>
         <div className={classes["main-content-compo"]}>
           <MianContent />
